@@ -1,0 +1,24 @@
+[user]
+	name = Todd Liu
+	email = twl2041@126.com
+[alias]
+	st = status
+	ad = add .
+	ci = commit
+	sh = show
+	cf = config
+	co = checkout
+	br = branch
+	df = diff
+	unstatge = reset HEAD --
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	hi = log --graph --pretty=format:'%Cred%h%Creset %Cgreen%ad%Creset | %s%C(yellow)%d%Creset %C(bold blue)[%an]%Creset' --date=short
+	last = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -1 HEAD
+[core]
+	editor = vim
+	autocrlf = true
+	safecrlf = false
+[credential]
+	helper = wincred
+[merge]
+	tool = vimdiff
